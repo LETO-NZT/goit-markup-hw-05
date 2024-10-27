@@ -767,7 +767,7 @@ address {
   margin-bottom: 24px;
 }
 
-.privacy-input:checked + .privacy-label-span {
+.privacy-input:checked + .privacy-label span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
