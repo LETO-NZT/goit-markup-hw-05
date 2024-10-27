@@ -753,6 +753,10 @@
     fill: #2e2f42;
 }
 
+.modal-input:hover .modal-icon {
+fill: #4D5AE5;
+}
+
 .input-wrapper:hover .person-light {
     fill: #4d5ae5;
 }
