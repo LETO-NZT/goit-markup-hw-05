@@ -344,6 +344,7 @@ address {
 .social-icons,
 .footer-social-icons {
   fill: #f4f4fd;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-page:hover,
@@ -584,8 +585,9 @@ address {
 }
 
 .footer-form-icon {
-  fill: #fff;
+  fill: #f4f4fd;
   margin-left: 16px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-overlay {
@@ -713,7 +715,7 @@ address {
   left: 16px;
   transform: translateY(-50%);
   fill: #2e2f42;
-  /* transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
@@ -753,6 +755,8 @@ address {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+  display: inline-flex;
+  /* --------------------- */
 }
 
 .privacy-label {
@@ -762,12 +766,14 @@ address {
   color: #8e8f99;
   align-items: center;
   gap: 8px;
-  /* display: inline-flex; */
+  display: inline-flex;
 }
 .privacy-label-span {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    /* --------------- */
 }
 
 .text-field {
@@ -784,6 +790,7 @@ address {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* ---------- нету display: inline-flex; но есть display: flex; */
 }
 
 .link-policy {
