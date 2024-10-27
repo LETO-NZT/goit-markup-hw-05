@@ -785,7 +785,7 @@ address {
   gap: 8px;
   display: inline-flex;
 }
-.privacy-label-span {
+/* .privacy-label-span {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -793,13 +793,13 @@ address {
     align-items: center;
     display: inline-flex;
     /* --------------- */
-}
+/* } */ 
 
 .text-field {
   margin-bottom: 16px;
 }
 
-.privacy-label span {
+.privacy-label-span {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   width: 16px;
@@ -809,8 +809,24 @@ address {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* ---------- нету display: inline-flex; но есть display: flex; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .link-policy {
   line-height: 1.33;
