@@ -469,6 +469,9 @@ a {
         padding-top: 0;
         flex-shrink: 0;
         justify-content: center;
+        /* ---------------------------- */
+        margin-right: 80px;
+        /* --------------------------- */
 }
 
 .footer-social-title {
@@ -589,6 +592,10 @@ a {
 
         background: #4d5ae5;
         cursor: pointer;
+        /* ---------------- */
+        display: block;
+        margin: 0 auto;
+        /* ------------------- */
 }
 
 .backdrop {
